@@ -7,16 +7,19 @@
 
 }
 
-
-
-.hero-text {
-    color: white;
-    text-align: center;
-    font-size: 3.6rem;
-    span {
-        color: #037fff;
-    }
+.hero { 
+    .hero-text { 
+        color: white;
+        text-align: center;
+        font-size: 3.6rem;
+    }   
+        span {
+            color: #037fff;
+        }
+    
+    
 }
+
 
 .h-sub-text {
     text-align: center;

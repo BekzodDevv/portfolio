@@ -1,6 +1,8 @@
-import React from 'react'
-import AllBlogs from '../Components/AllBlogs'
-import Tittle from '../Components/Tittle'
+import React from 'react';
+import AllBlogs from '../Components/AllBlogs';
+import Tittle from '../Components/Tittle';
+import Fade from 'react-reveal/Fade';
+
 
 function BlogsPage() {
     return (
@@ -12,14 +14,17 @@ function BlogsPage() {
             <div className="BlogsPage">
                 {AllBlogs.map((blog) => {
                     return <div className="blog" key={blog.id}>
-                        <div className="blog-content">
-                            <img src={blog.image} alt="image" />
-                            <a href={blog.link} className="blog-link">
-                                {blog.title}
-                            </a>
+                        <Fade top>
+                            <div className="blog-content">
+                                <img src={blog.image} alt="image" />
+                                <a href={blog.link} className="blog-link">
+                                    {blog.title}
+                                </a>
 
 
-                        </div>
+                            </div>
+                        </Fade>
+
                     </div>
                 })}
 

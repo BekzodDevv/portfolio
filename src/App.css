@@ -162,12 +162,12 @@
   width: 80%;
 }
 
-.hero-text {
+.hero .hero-text {
   color: white;
   text-align: center;
   font-size: 3.6rem;
 }
-.hero-text span {
+.hero span {
   color: #037fff;
 }
 

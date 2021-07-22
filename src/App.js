@@ -11,6 +11,7 @@ import { useState } from "react";
 
 
 
+
 function App() {
 
    const [navToggle, setNavToggle] = useState(false);
@@ -33,16 +34,17 @@ function App() {
          </div>
 
          <div className="main-content">
-            <div className="content">
+         
+         <div className="content">
                <Switch>
                   <Route path="/" exact>
                      <HomePage />
                   </Route>
-
+               
                   <Route path="/About" exact>
                      <About />
                   </Route>
-
+                 
                   <Route path="/portfolios" exact>
                      <PortfoliosPage />
                   </Route>
@@ -58,6 +60,10 @@ function App() {
                </Switch>
 
             </div>
+        
+       
+         
+            
 
 
 

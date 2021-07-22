@@ -1,21 +1,28 @@
 import React from 'react';
-import about from "../img/about.jpg"
+import about from "../img/about.jpg";
+import Zoom from 'react-reveal/Zoom';
+
 
 function ImageSection() {
     return (
         <div className="ImageSection">
 
-            <div className="img">
-                <img src={about} alt="about" />
-            </div>
+
+            <Zoom left duration={1200}>
+                <div className="img">
+                    <img src={about} alt="about" />
+                </div>
+            </Zoom>
+
 
 
             <div className="about-info">
-                <h4>I am <span>Bekzod Dev</span> </h4>
+            <Zoom right duration={1200}>
+            <h4>I am <span>Bekzod Dev</span> </h4>
                 <p className="about-text">
                     Hi i Bekzod Dev I have been interested
-                     in the web programming profession since 2020 
-                     and I wanted to try myself in this field
+                    in the web programming profession since 2020
+                    and I wanted to try myself in this field
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -35,8 +42,11 @@ function ImageSection() {
                         <p>: Uzbekistan Toshkent city</p>
                     </div>
                 </div>
-
                 <button className="btn">Download Cv</button>
+        </Zoom>
+               
+
+                
 
             </div>
 

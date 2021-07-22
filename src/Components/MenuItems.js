@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 function MenuItems({ menuItems }) {
     return (
@@ -7,22 +8,23 @@ function MenuItems({ menuItems }) {
             {
                 menuItems.map((item) => {
                     return <div className="portfolio" key={item.id}>
-                        <div className="image-data">
-                            <img src={item.image} alt="image" />
-                            <ul className="hover-items">
-                                <li>
-                                    <a href={item.link1}>{item.icon1}</a>
-                                    <a href={item.link2}>{item.icon2}</a>
-                                </li>
+                        <Fade big>
+                            <div className="image-data">
+                                <img src={item.image} alt="image" />
+                                <ul className="hover-items">
+                                    <li>
+                                        <a href={item.link1}>{item.icon1}</a>
+                                        <a href={item.link2}>{item.icon2}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h5>
+                                {item.title}
+                            </h5>
 
-                            </ul>
+                            <p>placeholder paragraph</p>
+                        </Fade>
 
-                        </div>
-                        <h5>
-                            {item.title}
-                        </h5>
-
-                        <p>placeholder paragraph</p>
                     </div>
                 })
             }
