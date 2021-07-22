@@ -31,6 +31,7 @@ function App() {
             <div className="lines-1"></div>
             <div className="lines-2"></div>
             <div className="lines-3"></div>
+            <div className=""></div>
          </div>
 
          <div className="main-content">
