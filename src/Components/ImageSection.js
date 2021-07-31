@@ -10,9 +10,7 @@ function ImageSection() {
 
             <Zoom left duration={1200}>
                 <div className="img">
-                    <img src={about} alt="about" />
-
-                    
+                    <img src={about} alt="abouttt" />
                 </div>
             </Zoom>
 
