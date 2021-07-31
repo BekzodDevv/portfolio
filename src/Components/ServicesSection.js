@@ -5,21 +5,24 @@ function ServicesSection({ image, title, text }) {
         <div className="ServicesSection">
             <div className="service">
                 <div className="service-content">
-                    
+
                     <img src={image} alt="images" />
 
                     <h5 className="s-title">{title}</h5>
 
                     <p className="s-text">
-                     {text}
+                        {text}
                     </p>
                 </div>
             </div>
 
+            
 
 
-        </div>
-    )
+
+
+            </div>
+            )
 }
 
-export default ServicesSection
+            export default ServicesSection

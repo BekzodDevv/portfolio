@@ -14,15 +14,16 @@ function MenuItems({ menuItems }) {
                                 <ul className="hover-items">
                                     <li>
                                         <a href={item.link1}>{item.icon1}</a>
-                                        <a href={item.link2}>{item.icon2}</a>
                                     </li>
                                 </ul>
                             </div>
                             <h5>
-                                {item.title}
+                                <a className="color" href={item.link2}>
+                                    {item.title}
+                                </a>
                             </h5>
 
-                            <p>placeholder paragraph</p>
+                        
                         </Fade>
 
                     </div>

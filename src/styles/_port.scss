@@ -67,9 +67,10 @@
         }
         }
      
-        h5 {
+        a {
             font-size: 1.7rem;
             font-weight: 400;
+            text-decoration: none;
             transition: all .3s ease-in-out;
             color: white;
             &:hover {

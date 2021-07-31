@@ -63,6 +63,7 @@
  align-items: center;
  justify-content: space-between;
  cursor: pointer;
+ 
  .lines-1, .lines-2, .lines-3 {
    height: .3rem;
    width: 100%;
@@ -73,6 +74,7 @@
   &:not(:last-child) {
     margin-bottom: .5rem;
   }
+
  }
  @media screen and (max-width: 1000px) {
       display: block;
@@ -80,6 +82,7 @@
         display: block;
       }
  }
+ 
 }
 
 
