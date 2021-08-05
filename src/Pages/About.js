@@ -6,6 +6,8 @@ import ServicesSection from '../Components/ServicesSection'
 import design from "../img/design.svg";
 import intelligence from "../img/intelligence.svg";
 import gamedev from "../img/game-dev.svg";
+
+
 import Swing from 'react-reveal/Swing';
 import Flash from 'react-reveal/Flash';
 

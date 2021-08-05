@@ -1,10 +1,10 @@
 import cryb from '../img/blogs/cryb.png';
 import js from '../img/blogs/js.jpg';
-import blog2 from '../img/blogs/blog2.svg';
-import blog3 from '../img/blogs/blog3.svg';
-import blog4 from '../img/blogs/blog4.svg';
-import blog5 from '../img/blogs/blog5.svg';
-
+import Linus from '../img/blogs/Linus.jpg';
+import Steve from '../img/blogs/Steve.jpg';
+import snouden from '../img/blogs/snouden.jpg';
+import Mitnick from '../img/blogs/Mitnick.jpg';
+import HP from '../img/blogs/HP.jpg';
 
 
 const AllBlogs =  [
@@ -13,73 +13,57 @@ const AllBlogs =  [
         image: cryb,
         title: 'Cybernetics',
         link: 'https://en.wikipedia.org/wiki/Cybernetics#:~:text=Cybernetics%20is%20a%20transdisciplinary%20approach,as%20inputs%20for%20further%20action.',
-        date : '21',
-        month: 'Mar',
-        year: '2020'
+     
     },
     {
         id: 2,
         image: js,
         title: 'Brendan Eich',
         link: 'https://en.wikipedia.org/wiki/Brendan_Eich',
-        date : '09',
-        month: 'Dec',
-        year: '2019'
+      
     },
     {
         id: 3,
-        image: blog3,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '15',
-        month: 'Jun',
-        year: '2018'
+        image: Linus,
+        title: 'Linus Torvalds',
+        link: 'https://en.wikipedia.org/wiki/Linus_Torvalds',
+      
     },
     {
         id: 4,
-        image: blog4,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '04',
-        month: 'Aug',
-        year: '2020'
+        image: Steve,
+        title: 'Steve Jobs',
+        link: 'https://en.wikipedia.org/wiki/Steve_Jobs',
+ 
     },
     {
         id: 5,
-        image: blog5,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
+        image: snouden,
+        title: 'Edward Snowden',
+        link: 'https://en.wikipedia.org/wiki/Edward_Snowden',
+
     },
     {
         id: 6,
-        image: blog5,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
+        image: Mitnick,
+        title: 'Kevin Mitnick',
+        link: 'https://en.wikipedia.org/wiki/Kevin_Mitnick',
+      
     },
     {
         id: 7,
-        image: blog3,
-        title: 'Test Blogs data1',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
-    },
-    {
-        id: 8,
-        image: blog3,
-        title: 'Test Blogs data2',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
+        image: HP,
+        title: 'Bill Hewlett and David Packard',
+        link: 'https://en.wikipedia.org/wiki/Kevin_Mitnick',
+     
     }
+    // {
+    //     id: 8,
+    //     image: Mitnick,
+    //     title: 'Test Blogs data2',
+    //     link: 'https://www.facebook.com/',
+      
+    // }
 ];
 
 export default AllBlogs;
