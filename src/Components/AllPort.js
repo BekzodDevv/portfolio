@@ -6,6 +6,8 @@ import megafood from '../img/portImages/megafood.png';
 import movie from '../img/portImages/Movie.png';
 import tesla from '../img/portImages/tesla.png';
 import vpnsite from '../img/portImages/vpn-site.png';
+import gmail from '../img/portImages/gmail.png';
+import wordhint from '../img/portImages/wordhint.png';
 
 const AllPort = [
     {
@@ -79,6 +81,26 @@ const AllPort = [
         image: vpnsite,
         title: 'Vpn-site',
         link2: "https://vpn-sitee.netlify.app"
+        
+    },
+    {
+        id: 9,
+        category: 'Clone',
+        link1: 'https://github.com/BekzodDevv/vpn-site',
+        icon1: 'G',
+        image: gmail,
+        title: 'Gmail-Clone',
+        link2: "https://clone-bek.web.app/"
+        
+    },
+    {
+        id: 10,
+        category: 'Pwa',
+        link1: 'https://wordhint.netlify.app/',
+        icon1: 'G',
+        image: wordhint,
+        title: 'wordhint',
+        link2: "https://wordhint.netlify.app/"
         
     }
 ]
