@@ -8,6 +8,8 @@ import tesla from '../img/portImages/tesla.png';
 import vpnsite from '../img/portImages/vpn-site.png';
 import gmail from '../img/portImages/gmail.png';
 import wordhint from '../img/portImages/wordhint.png';
+import airbnb from '../img/portImages/airbnb.png';
+import medical from '../img/portImages/medical.png';
 
 const AllPort = [
     {
@@ -102,7 +104,27 @@ const AllPort = [
         title: 'wordhint',
         link2: "https://wordhint.netlify.app/"
         
+    },
+    {
+        id: 11,
+        category: 'Next Js',
+        link1: 'https://next-airbnb-nine.vercel.app/',
+        icon1: 'G',
+        image: airbnb,
+        title: 'Airbnb',
+        link2: "https://next-airbnb-nine.vercel.app/"
+    },
+    {
+        id: 12,
+        category: 'React Js',
+        link1: 'https://medicalll.netlify.app',
+        icon1: 'G',
+        image: medical,
+        title: 'Medical',
+        link2: "https://medicalll.netlify.app"
+        
     }
+
 ]
 
 export default AllPort;
