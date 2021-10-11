@@ -1,29 +1,28 @@
-import Codebox from '../img/portImages/Codebox.png';
+import amazon from '../img/portImages/amazon-clone.png';
+import Disney from '../img/portImages/Disney.png';
 import covid from '../img/portImages/covid.png';
 import CRUD from '../img/portImages/CRUD.png';
 import linkedin from '../img/portImages/linkedin.png';
-import megafood from '../img/portImages/megafood.png';
 import movie from '../img/portImages/Movie.png';
 import tesla from '../img/portImages/tesla.png';
-import vpnsite from '../img/portImages/vpn-site.png';
 import gmail from '../img/portImages/gmail.png';
-import wordhint from '../img/portImages/wordhint.png';
 import airbnb from '../img/portImages/airbnb.png';
 import medical from '../img/portImages/medical.png';
+
 
 const AllPort = [
     {
         id: 1,
-        category: 'Javascript',
-        link1: 'https://github.com/BekzodDevv/codebox',
+        category: 'Next Js',
+        link1: 'https://github.com/BekzodDevv/az-clone',
         icon1: 'G',
-        image: Codebox,
-        title: 'Codebox',
-        link2: "https://codeboxx.netlify.app"
+        image: amazon,
+        title: 'Amazon',
+        link2: "https://az-clone-kqq25014p-bekzoddevv.vercel.app/"
     },
     {
         id: 2,
-        category: 'Clone',
+        category: 'React Js',
         link1: 'https://github.com/BekzodDevv/Covid-19-Tracker-clone',
         icon1: 'G',
         image: covid,
@@ -41,7 +40,7 @@ const AllPort = [
     },
     {
         id: 4,
-        category: 'Clone',
+        category: 'React Js',
         link1: 'https://github.com/BekzodDevv/Linkedin-Clone',
         icon1: 'G',
         image: linkedin,
@@ -50,12 +49,12 @@ const AllPort = [
     },
     {
         id: 5,
-        category: 'Javascript',
-        link1: 'https://github.com/BekzodDevv/MegaFood',
+        category: 'Next Js',
+        link1: 'https://github.com/BekzodDevv/Disney-clone',
         icon1: 'G',
-        image: megafood,
-        title: 'Mega-food',
-        link2: "https://mega-food.netlify.app/"
+        image: Disney,
+        title: 'Disney',
+        link2: "https://disney-clone-drab.vercel.app/"
     },
     {
         id: 6,
@@ -68,41 +67,21 @@ const AllPort = [
     },
     {
         id: 7,
-        category: 'Clone',
+        category: 'React Js',
         link1: 'https://github.com/BekzodDevv/Tesla-clone',
         icon1: 'G',
         image: tesla,
-        title: 'Tesla-clone',
+        title: 'Tesla',
         link2: "https://tesla-cloneee.netlify.app"
     },
     {
-        id: 8,
+        id: 9,
         category: 'React Js',
         link1: 'https://github.com/BekzodDevv/vpn-site',
         icon1: 'G',
-        image: vpnsite,
-        title: 'Vpn-site',
-        link2: "https://vpn-sitee.netlify.app"
-        
-    },
-    {
-        id: 9,
-        category: 'Clone',
-        link1: 'https://github.com/BekzodDevv/vpn-site',
-        icon1: 'G',
         image: gmail,
-        title: 'Gmail-Clone',
+        title: 'Gmail',
         link2: "https://clone-bek.web.app/"
-        
-    },
-    {
-        id: 10,
-        category: 'Pwa',
-        link1: 'https://wordhint.netlify.app/',
-        icon1: 'G',
-        image: wordhint,
-        title: 'wordhint',
-        link2: "https://wordhint.netlify.app/"
         
     },
     {

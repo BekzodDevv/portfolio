@@ -1,5 +1,5 @@
 import React from 'react';
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -25,14 +25,14 @@ function HomePage() {
 
                 <Slide right>
                     <div className="icons">
-                        <a href="https://www.instagram.com/abdullaev_zxc" target="_blank" className="icon-holder">
-                            <FontAwesomeIcon icon={faInstagram} className="icon fb" />
+                        <a href="https://www.linkedin.com/feed/?trk=nav_logo" target="_blank" rel="noopener" className="icon-holder">
+                            <FontAwesomeIcon icon={faLinkedin} className="icon fb" />
                         </a>
-                        <a href="https://github.com/BekzodDevv" target="_blank" className="icon-holder">
+                        <a href="https://github.com/BekzodDevv" target="_blank" rel="noopener" className="icon-holder">
                             <FontAwesomeIcon icon={faGithub} className="icon gh" />
                         </a>
 
-                        <a href="https://t.me/Bdeveloperr" target="_blank" className="icon-holder">
+                        <a href="https://t.me/Bdeveloperr" target="_blank" rel="noopener" className="icon-holder">
                             <FontAwesomeIcon icon={faTelegram} className="icon tg" />
                         </a>
 

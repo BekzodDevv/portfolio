@@ -30,7 +30,7 @@ function About() {
                 <SkillsSection skill={"Git"} progress={"30"} width={"30%"} />
                 <SkillsSection skill={"Javascipt"} progress={"40"} width={"40%"} />
                 <SkillsSection skill={"React Js"} progress={"40"} width={"40%"} />
-                <SkillsSection skill={"Next Js"} progress={"30"} width={"30%"} />
+                <SkillsSection skill={"Next Js"} progress={"40"} width={"40%"} />
         </Swing>
                
             </div>
