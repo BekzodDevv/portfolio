@@ -10,7 +10,7 @@ function MenuItems({ menuItems }) {
                     return <div className="portfolio" key={item.id}>
                         <Fade big>
                             <div className="image-data">
-                                <img src={item.image} alt="image" />
+                                <img src={item.image} alt="" />
                                 <ul className="hover-items">
                                     <li>
                                         <a href={item.link1}>{item.icon1}</a>

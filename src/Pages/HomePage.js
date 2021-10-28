@@ -25,14 +25,14 @@ function HomePage() {
 
                 <Slide right>
                     <div className="icons">
-                        <a href="https://www.linkedin.com/feed/?trk=nav_logo" target="_blank" rel="noopener" className="icon-holder">
+                        <a href="https://www.linkedin.com/feed/?trk=nav_logo" target="_blank" rel="noreferrer" className="icon-holder">
                             <FontAwesomeIcon icon={faLinkedin} className="icon fb" />
                         </a>
-                        <a href="https://github.com/BekzodDevv" target="_blank" rel="noopener" className="icon-holder">
+                        <a href="https://github.com/BekzodDevv" target="_blank" rel="noreferrer" className="icon-holder">
                             <FontAwesomeIcon icon={faGithub} className="icon gh" />
                         </a>
 
-                        <a href="https://t.me/Bdeveloperr" target="_blank" rel="noopener" className="icon-holder">
+                        <a href="https://t.me/Bdeveloperr" target="_blank" rel="noreferrer" className="icon-holder">
                             <FontAwesomeIcon icon={faTelegram} className="icon tg" />
                         </a>
 

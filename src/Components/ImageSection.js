@@ -1,5 +1,5 @@
 import React from 'react';
-import about from "../img/abo.png";
+import about from "../img/abo.webp";
 import Zoom from 'react-reveal/Zoom';
 
 

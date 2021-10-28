@@ -15,7 +15,7 @@ function ContactPage() {
             <div className="ContactPage">
                 <div className="map-sect">
                     <Fade  left>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5335.275175542637!2d-122.01080787620951!3d37.333662978039875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb59127ce078f%3A0x18e1c3ce7becf1b!2sApple%20Park!5e0!3m2!1sen!2s!4v1625313246014!5m2!1sen!2s" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
+                        <iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5335.275175542637!2d-122.01080787620951!3d37.333662978039875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb59127ce078f%3A0x18e1c3ce7becf1b!2sApple%20Park!5e0!3m2!1sen!2s!4v1625313246014!5m2!1sen!2s" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
                     </Fade>
 
                 </div>

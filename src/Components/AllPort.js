@@ -1,12 +1,12 @@
-import amazon from '../img/portImages/amazon-clone.png';
-import Disney from '../img/portImages/Disney.png';
+import amazon from '../img/portImages/amazon-clone.webp';
+import Disney from '../img/portImages/Disney.webp';
 import covid from '../img/portImages/covid.png';
 import CRUD from '../img/portImages/CRUD.png';
 import linkedin from '../img/portImages/linkedin.png';
-import movie from '../img/portImages/Movie.png';
-import tesla from '../img/portImages/tesla.png';
+import movie from '../img/portImages/Movie.webp';
+import tesla from '../img/portImages/tesla.webp';
 import gmail from '../img/portImages/gmail.png';
-import airbnb from '../img/portImages/airbnb.png';
+import airbnb from '../img/portImages/airbnb.webp';
 import medical from '../img/portImages/medical.png';
 
 
