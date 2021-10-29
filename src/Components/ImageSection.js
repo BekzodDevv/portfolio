@@ -1,6 +1,8 @@
 import React from 'react';
 import about from "../img/abo.webp";
 import Zoom from 'react-reveal/Zoom';
+import { Link } from "react-router-dom";
+
 
 
 function ImageSection() {
@@ -47,6 +49,7 @@ function ImageSection() {
                         </div>
                     </div>
                     <button className="btn">Download Cv</button>
+                    <Link to="Bekzod.pdf" target="_blank" download>Download</Link>
                 </Zoom>
 
 
