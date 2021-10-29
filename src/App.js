@@ -35,45 +35,45 @@ function App() {
 
 
 
-            <div className="main-content">
+         <div className="main-content">
 
-               <div className="content">
-                  <Switch>
-                     <Route path="/" exact>
-                        <HomePage />
-                     </Route>
+            <div className="content">
+               <Switch>
+                  <Route path="/" exact>
+                     <HomePage />
+                  </Route>
 
-                     <Route path="/About" exact>
-                        <About />
-                     </Route>
+                  <Route path="/About" exact>
+                     <About />
+                  </Route>
 
-                     <Route path="/portfolios" exact>
-                        <PortfoliosPage />
-                     </Route>
+                  <Route path="/portfolios" exact>
+                     <PortfoliosPage />
+                  </Route>
 
-                     <Route path="/blogs" exact>
-                        <BlogsPage />
-                     </Route>
+                  <Route path="/blogs" exact>
+                     <BlogsPage />
+                  </Route>
 
-                     <Route path="/contact" exact>
-                        <ContactPage />
-                     </Route>
+                  <Route path="/contact" exact>
+                     <ContactPage />
+                  </Route>
 
-                  </Switch>
+               </Switch>
 
-               </div>
-            </div >
-
-
+            </div>
+         </div >
 
 
 
 
-         
+
+
+
 
 
       </div >
-         );
+   );
 }
 
-         export default App;
+export default App;

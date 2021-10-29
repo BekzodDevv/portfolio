@@ -48,8 +48,10 @@ function ImageSection() {
                             <p>: Uzbekistan Toshkent city</p>
                         </div>
                     </div>
-                    <button className="btn">Download Cv</button>
-                    <Link to="Bekzod.pdf" target="_blank" download>Download</Link>
+                    <button className="btn">
+                        <Link to="Bekzod.pdf" target="_blank" download>Download Cv</Link>
+                    </button>
+
                 </Zoom>
 
 
