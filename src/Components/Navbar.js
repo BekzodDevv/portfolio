@@ -11,31 +11,37 @@ function Navbar({navClick}) {
                 </div>
                 <ul className="nav-items" onClick={navClick}>
                     <li className="nav-item">
-                        <NavLink to="/" exact activeClassName="active">
+                        <NavLink to="/"  activeClassName="active">
                             Home
                         </NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <NavLink to="/About" exact activeClassName="active">
+                        <NavLink to="/About"  activeClassName="active">
                             About
                         </NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <NavLink to="/Portfolios" exact activeClassName="active">
+                        <NavLink to="/Certificates"  activeClassName="active">
+                        Certificates
+                        </NavLink>
+                    </li>
+
+                    <li className="nav-item">
+                        <NavLink to="/Portfolios"  activeClassName="active">
                             Portfolios
                         </NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <NavLink to="/Blogs" exact activeClassName="active">
+                        <NavLink to="/Blogs"  activeClassName="active">
                             Blogs
                         </NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
+                        <NavLink to="/contact"  activeClassName="active">
                             Contact
                         </NavLink>
                     </li>

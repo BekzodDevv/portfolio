@@ -3,10 +3,12 @@ import "./App.css"
 import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
 import HomePage from "./Pages/HomePage";
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import PortfoliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
+import Certificates from "./Pages/Certificates";
+
 import { useState } from "react";
 
 
@@ -38,28 +40,15 @@ function App() {
          <div className="main-content">
 
             <div className="content">
-               <Switch>
-                  <Route path="/" exact>
-                     <HomePage />
-                  </Route>
+               <Routes>
+                  <Route path="/" element={<HomePage />}  />
+                  <Route path="About" element={<About />} />
+                  <Route path="Certificates" element={<Certificates />} />
+                    <Route path="portfolios" element={<PortfoliosPage />} />
+                  <Route path="blogs" element={<BlogsPage />} />
+                  <Route path="contact" element={<ContactPage />} />
 
-                  <Route path="/About" exact>
-                     <About />
-                  </Route>
-
-                  <Route path="/portfolios" exact>
-                     <PortfoliosPage />
-                  </Route>
-
-                  <Route path="/blogs" exact>
-                     <BlogsPage />
-                  </Route>
-
-                  <Route path="/contact" exact>
-                     <ContactPage />
-                  </Route>
-
-               </Switch>
+               </Routes>
 
             </div>
          </div >
