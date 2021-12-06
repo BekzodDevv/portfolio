@@ -8,6 +8,7 @@ import tesla from '../img/portImages/tesla.webp';
 import gmail from '../img/portImages/gmail.png';
 import airbnb from '../img/portImages/airbnb.webp';
 import medical from '../img/portImages/medical.png';
+import crypto from '../img/portImages/crypto.webp';
 
 
 const AllPort = [
@@ -15,7 +16,7 @@ const AllPort = [
         id: 1,
         category: 'Next Js',
         link1: 'https://github.com/BekzodDevv/az-clone',
-        icon1: 'G',
+        icon1: 'Github',
         image: amazon,
         title: 'Amazon',
         link2: "https://az-clone-kqq25014p-bekzoddevv.vercel.app/"
@@ -24,7 +25,7 @@ const AllPort = [
         id: 2,
         category: 'React Js',
         link1: 'https://github.com/BekzodDevv/Covid-19-Tracker-clone',
-        icon1: 'G',
+        icon1: 'Github',
         image: covid,
         title: 'Covid-19-Tracker-clone',
         link2: "https://bcovid-19-tracker.web.app"
@@ -33,7 +34,7 @@ const AllPort = [
         id: 3,
         category: 'Crud',
         link1: 'https://github.com/BekzodDevv/CRUD',
-        icon1: 'G',
+        icon1: 'Github',
         image: CRUD,
         title: 'Crud',
         link2: "https://bekzodcrud.netlify.app/"
@@ -42,7 +43,7 @@ const AllPort = [
         id: 4,
         category: 'React Js',
         link1: 'https://github.com/BekzodDevv/Linkedin-Clone',
-        icon1: 'G',
+        icon1: 'Github',
         image: linkedin,
         title: 'Linkedin-Clone',
         link2: "https://linkedin-clone-86c4e.web.app"
@@ -51,7 +52,7 @@ const AllPort = [
         id: 5,
         category: 'Next Js',
         link1: 'https://github.com/BekzodDevv/Disney-clone',
-        icon1: 'G',
+        icon1: 'Github',
         image: Disney,
         title: 'Disney',
         link2: "https://disney-clone-drab.vercel.app/"
@@ -60,7 +61,7 @@ const AllPort = [
         id: 6,
         category: 'React Js',
         link1: 'https://github.com/BekzodDevv/movie-course',
-        icon1: 'G',
+        icon1: 'Github',
         image: movie,
         title: 'Movie',
         link2: "https://movie-course.netlify.app"
@@ -69,7 +70,7 @@ const AllPort = [
         id: 7,
         category: 'React Js',
         link1: 'https://github.com/BekzodDevv/Tesla-clone',
-        icon1: 'G',
+        icon1: 'Github',
         image: tesla,
         title: 'Tesla',
         link2: "https://tesla-cloneee.netlify.app"
@@ -78,17 +79,17 @@ const AllPort = [
         id: 9,
         category: 'React Js',
         link1: 'https://github.com/BekzodDevv/vpn-site',
-        icon1: 'G',
+        icon1: 'Github',
         image: gmail,
         title: 'Gmail',
         link2: "https://clone-bek.web.app/"
-        
+
     },
     {
         id: 11,
         category: 'Next Js',
         link1: 'https://next-airbnb-nine.vercel.app/',
-        icon1: 'G',
+        icon1: 'Github',
         image: airbnb,
         title: 'Airbnb',
         link2: "https://next-airbnb-nine.vercel.app/"
@@ -97,11 +98,21 @@ const AllPort = [
         id: 12,
         category: 'React Js',
         link1: 'https://medicalll.netlify.app',
-        icon1: 'G',
+        icon1: 'Github',
         image: medical,
         title: 'Medical',
         link2: "https://medicalll.netlify.app"
-        
+
+    },
+    {
+        id: 13,
+        category: 'React Js',
+        link1: 'https://github.com/BekzodDevv/crypto',
+        icon1: 'Github',
+        image: crypto,
+        title: 'Crypto',
+        link2: "https://bekcrypto.netlify.app/"
+
     }
 
 ]

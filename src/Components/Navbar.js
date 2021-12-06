@@ -25,7 +25,7 @@ function Navbar({navClick}) {
                     <li className="nav-item">
                         <NavLink to="/Certificates"  activeClassName="active">
                         Certificates
-                        </NavLink>
+                        </NavLink> 
                     </li>
 
                     <li className="nav-item">
