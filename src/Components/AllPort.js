@@ -1,14 +1,7 @@
 import amazon from '../img/portImages/amazon-clone.webp';
-import Disney from '../img/portImages/Disney.webp';
-import covid from '../img/portImages/covid.png';
-import CRUD from '../img/portImages/CRUD.png';
-import linkedin from '../img/portImages/linkedin.png';
-import movie from '../img/portImages/Movie.webp';
-import tesla from '../img/portImages/tesla.webp';
-import gmail from '../img/portImages/gmail.png';
 import airbnb from '../img/portImages/airbnb.webp';
-import medical from '../img/portImages/medical.png';
 import crypto from '../img/portImages/crypto.webp';
+import dota2 from '../img/portImages/dota2.webp';
 
 
 const AllPort = [
@@ -21,72 +14,9 @@ const AllPort = [
         title: 'Amazon',
         link2: "https://az-clone-kqq25014p-bekzoddevv.vercel.app/"
     },
+
     {
         id: 2,
-        category: 'React Js',
-        link1: 'https://github.com/BekzodDevv/Covid-19-Tracker-clone',
-        icon1: 'Github',
-        image: covid,
-        title: 'Covid-19-Tracker-clone',
-        link2: "https://bcovid-19-tracker.web.app"
-    },
-    {
-        id: 3,
-        category: 'Crud',
-        link1: 'https://github.com/BekzodDevv/CRUD',
-        icon1: 'Github',
-        image: CRUD,
-        title: 'Crud',
-        link2: "https://bekzodcrud.netlify.app/"
-    },
-    {
-        id: 4,
-        category: 'React Js',
-        link1: 'https://github.com/BekzodDevv/Linkedin-Clone',
-        icon1: 'Github',
-        image: linkedin,
-        title: 'Linkedin-Clone',
-        link2: "https://linkedin-clone-86c4e.web.app"
-    },
-    {
-        id: 5,
-        category: 'Next Js',
-        link1: 'https://github.com/BekzodDevv/Disney-clone',
-        icon1: 'Github',
-        image: Disney,
-        title: 'Disney',
-        link2: "https://disney-clone-drab.vercel.app/"
-    },
-    {
-        id: 6,
-        category: 'React Js',
-        link1: 'https://github.com/BekzodDevv/movie-course',
-        icon1: 'Github',
-        image: movie,
-        title: 'Movie',
-        link2: "https://movie-course.netlify.app"
-    },
-    {
-        id: 7,
-        category: 'React Js',
-        link1: 'https://github.com/BekzodDevv/Tesla-clone',
-        icon1: 'Github',
-        image: tesla,
-        title: 'Tesla',
-        link2: "https://tesla-cloneee.netlify.app"
-    },
-    {
-        id: 9,
-        category: 'React Js',
-        link1: 'https://github.com/BekzodDevv/vpn-site',
-        icon1: 'Github',
-        image: gmail,
-        title: 'Gmail',
-        link2: "https://clone-bek.web.app/"
-
-    },
-    {
-        id: 11,
         category: 'Next Js',
         link1: 'https://next-airbnb-nine.vercel.app/',
         icon1: 'Github',
@@ -95,24 +25,22 @@ const AllPort = [
         link2: "https://next-airbnb-nine.vercel.app/"
     },
     {
-        id: 12,
-        category: 'React Js',
-        link1: 'https://medicalll.netlify.app',
-        icon1: 'Github',
-        image: medical,
-        title: 'Medical',
-        link2: "https://medicalll.netlify.app"
-
-    },
-    {
-        id: 13,
+        id: 3,
         category: 'React Js',
         link1: 'https://github.com/BekzodDevv/crypto',
         icon1: 'Github',
         image: crypto,
         title: 'Crypto',
         link2: "https://bekcrypto.netlify.app/"
-
+    },
+    {
+        id: 4,
+        category: 'React Js',
+        link1: 'https://github.com/BekzodDevv/crypto',
+        icon1: 'Github',
+        image: dota2,
+        title: 'Dota 2',
+        link2: "https://dota2uz.netlify.app/"
     }
 
 ]
