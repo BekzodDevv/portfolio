@@ -2,6 +2,9 @@ import amazon from '../img/portImages/amazon-clone.webp';
 import airbnb from '../img/portImages/airbnb.webp';
 import crypto from '../img/portImages/crypto.webp';
 import dota2 from '../img/portImages/dota2.webp';
+import cofe from '../img/portImages/cofe.webp';
+import moviess from '../img/portImages/moviess.webp';
+
 
 
 const AllPort = [
@@ -41,6 +44,24 @@ const AllPort = [
         image: dota2,
         title: 'Dota 2',
         link2: "https://dota2uz.netlify.app/"
+    },
+    {
+        id: 5,
+        category: 'React Js',
+        link1: 'https://github.com/BekzodDevv/Coffee-Project',
+        icon1: 'Github',
+        image: cofe,
+        title: 'Cofe',
+        link2: "https://coffeeuzz.netlify.app/"
+    },
+    {
+        id: 6,
+        category: 'React Js',
+        link1: 'https://github.com/BekzodDevv/Movie',
+        icon1: 'Github',
+        image: moviess,
+        title: 'Movie',
+        link2: "https://bekzodmovie.netlify.app/"
     }
 
 ]

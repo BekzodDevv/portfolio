@@ -1,4 +1,5 @@
 
+import { useState, useEffect } from "react";
 import "./App.css"
 import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
@@ -8,23 +9,34 @@ import PortfoliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
 import Certificates from "./Pages/Certificates";
-
-import { useState } from "react";
+import ReactGA from 'react-ga';
 
 
 
 
 function App() {
-   
+
    const [navToggle, setNavToggle] = useState(false);
 
    const navClick = () => {
       setNavToggle(!navToggle)
    }
 
+  const setGA = () => {
+      ReactGA.initialize('G-6WN3BQBW6V');
+      ReactGA.pageview('Init page view');
+    };
+  
+   useEffect(() => {
+      setGA()
+   }, [])
 
+   
+   // G-6WN3BQBW6V
    return (
       <div className="App">
+
+
          <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
             <Navbar navClick={navClick} />
          </div>
@@ -41,10 +53,10 @@ function App() {
 
             <div className="content">
                <Routes>
-                  <Route path="/" element={<HomePage />}  />
+                  <Route path="/" element={<HomePage />} />
                   <Route path="About" element={<About />} />
                   <Route path="Certificates" element={<Certificates />} />
-                    <Route path="portfolios" element={<PortfoliosPage />} />
+                  <Route path="portfolios" element={<PortfoliosPage />} />
                   <Route path="blogs" element={<BlogsPage />} />
                   <Route path="contact" element={<ContactPage />} />
 
